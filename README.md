@@ -41,18 +41,18 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 For me, was difficult to understand how to allign a div in de center. But with some search a got a good result in the beginning
 
-I tryed tomake a clean code.
+I tried to make a clean code, like using id to identify a element for automation.
 
 ```css
 @font-face {
     font-family: Outfit;
-    src: url(../fonts/Outfit/Outfit-VariableFont_wght.ttf);
+    src: url(../fonts/Outfit-VariableFont_wght.ttf);
 }
 
 body {
     background-color: hsl(212, 45%, 89%);
     display: flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 4.3rem;
@@ -70,30 +70,27 @@ body {
     margin-right: auto;
     width: 14rem
 }
-#title-challenge{
+.title-challenge{
     color: hsl(218, 44%, 22%);
     font-weight: 700;
     font-size: 1.2rem;
 }
-#text-challenge{
+.text-challenge{
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 0.8rem;
 }
-#qr-code{
+.qr-code{
     width: 15rem;
     border-radius: 0.5rem;
 }
-#author{
+.author{
     color: hsl(218, 44%, 22%);
-    font-family: Outfit;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     width: 10rem;
     font-weight: 400;
     font-size: 0.6rem;
 }
+
 a:link{
     color: hsl(218, 44%, 22%);
 }
